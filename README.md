@@ -1,40 +1,47 @@
 # Namma Mastri 👷‍♂️
 
-Namma Mastri is an Android-based workforce management application developed to simplify daily operations in the construction sector. The application helps local mastris and site supervisors efficiently manage worker attendance, employee records, and daily work activities through a simple and user-friendly digital platform.
-
-The main objective of this project is to replace traditional manual record-keeping methods with a mobile application that improves productivity, organization, and workforce management at construction sites.
+**Namma Mastri** is a professional Android-based site management application designed to simplify daily operations for construction supervisors (Mastris). It replaces manual record-keeping with a modern digital dashboard to track labor, material estimations, and site progress.
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-- Worker registration and management
-- Daily attendance tracking
-- Easy-to-use user interface
-- Mobile-friendly design
-- Simple workforce management system
-- Organized work activity monitoring
+- **Professional Dashboard**: Visual site progress tracker and real-time labor/expense summaries.
+- **Labor Management**: Register workers, track roles, and manage daily wages.
+- **Attendance System**: One-tap attendance toggles that update project stats instantly.
+- **Material Estimator**: Professional calculator for Brick Wall requirements (Volume, Cement, Bricks).
+- **Progress Gallery**: Track visual site development with a dedicated photo progress log.
+- **Modern UI**: Clean, high-end interface built using **Jetpack Compose** and **Material 3**.
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **Programming Language:** Kotlin
+- **Language:** Kotlin
+- **UI Framework:** Jetpack Compose (Modern Declarative UI)
+- **Design System:** Material 3
 - **IDE:** Android Studio
-- **UI Design:** XML
 - **Version Control:** Git & GitHub
 
 ---
 
 ## 📂 Project Structure
-
 ```bash
 Namma-Mastri/
 │── app/
-│── java/
-│── res/
-│── Gradle Scripts/
+│   ├── src/main/java/.../MainActivity.kt   # Core App Logic & UI
+│   └── src/main/res/                       # App Icons & Resources
+│── images/                                 # Project Screenshots
+│── project_demo/                           # Demo Video Files
+│── README.md
+└── build.gradle.kts
 ```
+---
+## 🎥 Project Demo
+
+- Google Drive Demo Video: [Watch Demo Video](https://drive.google.com/file/d/1ZQfV_BMfdGtt1M3fvzsESaBWjWwFKrwk/view?usp=drivesdk)
+
+- Demo files are also available inside the `project_demo/` folder.
 
 ---
 
@@ -43,7 +50,7 @@ Namma-Mastri/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Namma-Mastri.git
+git clone https://github.com/Manu322204/Namma-Mistri.git
 ```
 
 ### 2. Open in Android Studio
